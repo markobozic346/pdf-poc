@@ -1,0 +1,93 @@
+/* Custom variables for dynamic brand colors */
+:root {
+  --radius: 0.5rem;
+
+  /* STATIC PALETTE */
+  --color-grayscale-50: #f6f7f8;
+  --color-grayscale-100: #ebecf0;
+  --color-grayscale-200: #d6dae1;
+  --color-grayscale-300: #c2c7d1;
+  --color-grayscale-400: #adb4c2;
+  --color-grayscale-500: #9aa3b4;
+  --color-grayscale-600: #727f97;
+  --color-grayscale-700: #555f72;
+  --color-grayscale-800: #383f4c;
+  --color-grayscale-900: #1c2026;
+  --color-grayscale-950: #0f1114;
+
+  --color-grayscale-body: #747F95;
+
+  /* DYNAMIC PALETTE */
+  --color-brand-50: #feeee7;
+  --color-brand-100: #fce1d4;
+  --color-brand-200: #fac2a8;
+  --color-brand-300: #f7a078;
+  --color-brand-400: #f5824d;
+  --color-brand-500: #f26522;
+  --color-brand-600: #cf4a0c;
+  --color-brand-700: #9a3709;
+  --color-brand-800: #6a2606;
+  --color-brand-900: #351303;
+  --color-brand-950: #180901;
+
+  --color-brand-accent: #214850;
+  --color-brand-accent-text: #ffffff;
+  --color-brand-alternative-accent: #d2e1fa;
+
+  --color-brand-gradient-start: #f6b592;
+  --color-brand-gradient-end: #CB4E0B;
+
+  --color-brand-icon-background: #f5f5f5;
+  --color-brand-card-border: #c2c7d1;
+  --color-brand-secondary-1: #F3F4ED;
+
+  --color-brand-text-color: #6a2a07;
+  --color-brand-text-color-invert: #ffffff;
+
+  /* EXTRACTED VARIABLES */
+  --ring: var(--color-brand-500);
+  --border: var(--color-brand-500);
+  --border-lighter: var(--color-brand-300);
+
+  --border-grayscale: var(--color-grayscale-300);
+  --border-grayscale-lighter: var(--color-grayscale-200);
+  --border-grayscale-darker: var(--color-grayscale-600);
+
+  --background: white;
+  --foreground: var(--color-brand-text-color);
+
+  --background-accent: var(--color-brand-accent);
+  --foreground-accent: var(--color-brand-accent-text);
+
+  --background-grayscale: var(--color-grayscale-100);
+  --foreground-grayscale: var(--color-brand-text-color);
+  --foreground-grayscale-grayscale: var(--color-grayscale-600);
+
+  --background-grayscale-subtle: var(--color-grayscale-50);
+  --foreground-grayscale-subtle: var(--color-brand-text-color);
+  --foreground-grayscale-subtle-grayscale: var(--color-grayscale-600);
+
+  --background-grayscale-disabled: var(--color-grayscale-200);
+  --foreground-grayscale-disabled: var(--color-grayscale-700);
+
+  --background-primary: var(--color-brand-500);
+  --foreground-primary: var(--color-grayscale-50);
+
+  --background-primary-subtle: var(--color-brand-400);
+  --foreground-primary-subtle: var(--color-grayscale-50);
+
+  --background-primary-light: var(--color-brand-50);
+  --foreground-primary-light: var(--color-brand-text-color);
+
+  --background-secondary-1: var(--color-brand-secondary-1, var(--color-brand-100));
+  --foreground-secondary-1: var(--color-brand-text-color);
+
+  --alternative-accent: var(--color-brand-alternative-accent, var(--color-grayscale-50));
+
+  --gradient-start: var(--color-brand-gradient-start, var(--color-grayscale-50));
+  --gradient-end: var(--color-brand-gradient-end, var(--color-grayscale-100));
+
+  --icon-background: var(--color-brand-icon-background, var(--background));
+  --icon-color: var(--color-brand-500);
+
+}
